@@ -1,0 +1,75 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: rgb(36, 96, 156);
+  background-image: url("https://source.unsplash.com/1920x1080/?landscape");
+}
+
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 44px;
+  width: 44px;
+  background: #adadad2b;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #ffffff49;
+}
+
+h1 {
+  margin: 0;
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+.icon {
+  margin: 0;
+}
+
+.card {
+  background: rgba(8, 8, 8, 0.8);
+  color: white;
+  letter-spacing: 0.1em;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1em;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background: #adadad2b;
+  color: white;
+  font-size: 1.2em;
+  width: calc(100% - 50px);
+}
+
+.weather.loading {
+  visibility: hidden;
+  max-height: 20px;
+}
